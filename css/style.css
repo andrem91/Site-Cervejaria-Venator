@@ -83,7 +83,7 @@ header {
     text-align: center;
     font-weight: bold;
     border-radius: 0.8rem;
-    box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.6);
+    /* box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.6); */
     transition: 0.3s;
 }
 
@@ -129,7 +129,7 @@ section {
 #a-venator img {
     width: 100%;
     border-radius: 0.4rem;
-    box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.6);
+    /* box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.6); */
 }
 
 /* As Cervejas */
@@ -149,7 +149,7 @@ section {
 
 .text-beer {
     margin: 30px 20px;
-    width: 100%;
+    width: 90%;
 }
 
 .img-beer {
@@ -159,7 +159,7 @@ section {
 .img-beer img {
     width: 100%;
     border-radius: 0.4rem;
-    box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.6);
+    /* box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.6); */
 }
 
 /* Lemonade */
