@@ -48,7 +48,7 @@ header {
 }
 
 #header {
-    max-width: 1100px;
+    max-width: 100%;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -96,7 +96,7 @@ header {
 /* Configurações de corpo */
 
 section {
-    max-width: 1100px;
+    max-width: 100%;
     margin: 0 auto;
     background: #fff;    
 
@@ -137,6 +137,9 @@ section {
 #as-cervejas {
     border-top: 1px solid rgba(153, 145, 145, 0.5);
 }
+#as-cervejas h2 {
+    grid-area: a;
+}
 
 #as-cervejas article {
     display: flex;
@@ -165,6 +168,7 @@ section {
     border-top: 1px solid #fdd20d;
     flex-direction: row-reverse;
     background: #fdd20d41;
+    grid-area: l;
 }
 
 #lemonade .text-beer h3,
@@ -177,6 +181,7 @@ section {
 #peso-pena {
     border-top: 1px solid #f05429;
     background: #f0542941;
+    grid-area: p;
 }
 
 #peso-pena .text-beer h3,
@@ -190,6 +195,7 @@ section {
     border-top: 1px solid #008944;
     flex-direction: row-reverse;
     background: #00894441;
+    grid-area: k;
 }
 
 #kaffeine .text-beer h3,
@@ -253,7 +259,7 @@ section {
 /* Rodapé */
 
 footer {
-    max-width: 1100px;
+    max-width: 100%;
     margin: 30px auto;
     text-align: center;
     /* border: 1px solid red; */
@@ -299,5 +305,19 @@ footer {
     }
     #whatsapp p {
         width: 80%;
+    }
+}
+@media(min-width: 1450px) {
+    #as-cervejas {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 7fr;
+        grid-template-areas: 
+        "a a a"
+        "l p k"
+        ;
+    }
+    #as-cervejas article {
+        flex-direction: column;
     }
 }
