@@ -1,0 +1,303 @@
+/* Configurações Gerais */
+body, html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+body {
+    background: #efeff5;
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    text-align: center;
+    padding: 30px;
+    font-size: 2.6rem;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+
+h3{
+    text-align: center;
+    margin: 30px 0;
+    font-size: 2.2rem;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+
+h4{
+    text-align: center;
+    margin: 15px 0;
+    font-size: 1.6rem;
+    text-shadow: 1.5px 1.5px 1.5px rgba(0,0,0,0.5);
+}
+h5 {
+    font-size: 1.2rem;
+}
+
+/* Cabeçalho */
+header {
+    background: #fdd20d;
+}
+
+#header {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    /* border: 1px solid red; */
+}
+#header img {
+    padding: 0 20px;
+}
+
+/* Menu */
+#header ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0 10px;
+}
+
+#header ul li {
+    margin: 0 0.5rem;
+}
+
+#header ul li a {
+    width: 100px;
+    line-height: 35px;
+    background: #e7c412;
+    color: black;
+    border: 1px solid rgb(173, 160, 43);
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 0.8rem;
+    box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.6);
+    transition: 0.3s;
+}
+
+#header ul li a:hover {
+    background: #b39b26;
+    color: white;
+
+}
+
+/* Configurações de corpo */
+
+section {
+    max-width: 1100px;
+    margin: 0 auto;
+    background: #fff;    
+
+}
+
+/* A venator */
+
+#a-venator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#a-venator #texto-sobre {
+    margin: 20px;
+    width: 100%;
+}
+
+#a-venator #texto-sobre h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 2.8rem;
+    color: #fdd20d;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+#a-venator #imagem-sobre {
+    margin: 20px;
+}
+
+#a-venator img {
+    width: 100%;
+    border-radius: 0.4rem;
+    box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.6);
+}
+
+/* As Cervejas */
+
+#as-cervejas {
+    border-top: 1px solid rgba(153, 145, 145, 0.5);
+}
+
+#as-cervejas article {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text-beer {
+    margin: 30px 20px;
+    width: 100%;
+}
+
+.img-beer {
+    margin: 30px 20px ;
+}
+
+.img-beer img {
+    width: 100%;
+    border-radius: 0.4rem;
+    box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.6);
+}
+
+/* Lemonade */
+
+#lemonade {
+    border-top: 1px solid #fdd20d;
+    flex-direction: row-reverse;
+    background: #fdd20d41;
+}
+
+#lemonade .text-beer h3,
+#lemonade .text-beer h4 {
+    color: #fdd20d;
+}
+
+/* Peso-Pena */
+
+#peso-pena {
+    border-top: 1px solid #f05429;
+    background: #f0542941;
+}
+
+#peso-pena .text-beer h3,
+#peso-pena .text-beer h4 {
+    color: #f05429;
+}
+
+/* Kaffeine */
+
+#kaffeine {
+    border-top: 1px solid #008944;
+    flex-direction: row-reverse;
+    background: #00894441;
+}
+
+#kaffeine .text-beer h3,
+#kaffeine .text-beer h4 {
+    color: #008944;
+}
+
+
+/* Contato */
+#contato {
+    border-top: 1px solid rgba(153, 145, 145, 0.5);
+}
+
+#whatsapp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#whatsapp p {
+    width: 50%;
+    text-align: center;
+    padding: 20px;
+}
+
+#whatsapp .button {
+    width: 200px;
+    height: 90px;
+    background: #04D361;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    font: 700 1.4rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    text-decoration: none;
+    transition: background 0.2s;
+}
+
+#whatsapp .button:hover {
+    background: #04BF58;
+}
+
+#redes-sociais {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#redes-sociais a {
+    padding: 30px;
+}
+
+
+
+
+/* Rodapé */
+
+footer {
+    max-width: 1100px;
+    margin: 30px auto;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+
+@media (max-width: 700px) {
+    #header {
+        flex-direction: column;
+    }
+    #header ul {
+        flex-direction: column;
+    }
+    #header ul li {
+        margin: 5px;
+    }
+    #a-venator {
+        display: block;
+        padding: 20px;
+    }
+    #a-venator #texto-sobre {
+        margin: 0;
+    }
+    #as-cervejas article {
+        display: block;
+        padding: 20px;
+    }
+    #as-cervejas .text-beer {
+        margin: 0;
+    }
+
+    #as-cervejas h2 {
+        font-size: 2.6rem;
+    }
+    #as-cervejas .text-beer h3 {
+        font-size: 1.8rem;
+    }
+    #as-cervejas .text-beer h4 {
+        font-size: 1.4rem;
+    }
+
+    #whatsapp {
+        flex-direction: column;
+    }
+    #whatsapp p {
+        width: 80%;
+    }
+}
