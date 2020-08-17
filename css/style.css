@@ -77,13 +77,13 @@ header {
     line-height: 35px;
     background: #e7c412;
     color: black;
-    border: 1px solid rgb(173, 160, 43);
+    /* border: 1px solid rgb(173, 160, 43); */
     display: block;
     text-decoration: none;
     text-align: center;
     font-weight: bold;
     border-radius: 0.8rem;
-    /* box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.6); */
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.4);
     transition: 0.3s;
 }
 
@@ -129,7 +129,7 @@ section {
 #a-venator img {
     width: 100%;
     border-radius: 0.4rem;
-    /* box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.6); */
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.4);
 }
 
 /* As Cervejas */
@@ -159,7 +159,7 @@ section {
 .img-beer img {
     width: 100%;
     border-radius: 0.4rem;
-    /* box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.6); */
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.4);
 }
 
 /* Lemonade */
@@ -222,9 +222,9 @@ section {
 }
 
 #whatsapp .button {
-    width: 200px;
+    width: 230px;
     height: 90px;
-    background: #04D361;
+    background: #25D366;
     color: #FFFFFF;
     border: 0;
     border-radius: 0.8rem;
@@ -237,6 +237,9 @@ section {
 
     text-decoration: none;
     transition: background 0.2s;
+}
+#whatsapp img {
+    width: 40px;
 }
 
 #whatsapp .button:hover {
@@ -253,8 +256,9 @@ section {
     padding: 30px;
 }
 
-
-
+#redes-sociais img {
+    width: 50px;
+}
 
 /* Rodapé */
 
@@ -306,6 +310,7 @@ footer {
     #whatsapp p {
         width: 80%;
     }
+
 }
 @media(min-width: 1450px) {
     #as-cervejas {
