@@ -95,7 +95,6 @@ header {
 
 section {
     max-width: 100%;
-    margin: 0 auto;
 }
 
 /* A venator */
@@ -108,11 +107,6 @@ section {
     padding: 120px;
 }
 
-#a-venator #texto-sobre {
-    padding: 20px;
-    color: white;
-    /* background: black; */
-}
 
 #a-venator #texto-sobre h1 {
     text-align: center;
@@ -287,10 +281,10 @@ footer {
     }
     #a-venator {
         display: block;
-        padding: 20px;
+        padding: 10px;
     }
     #a-venator #texto-sobre p {
-        padding: 20px;
+        padding: 30px;
     }
     #as-cervejas article {
         display: block;
