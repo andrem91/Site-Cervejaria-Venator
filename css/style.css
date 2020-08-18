@@ -290,6 +290,7 @@ footer {
         width: 200px;
     }
     #a-venator {
+        background-position: left;
         display: block;
         padding: 20px;
     }
