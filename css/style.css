@@ -289,6 +289,9 @@ footer {
         display: block;
         padding: 20px;
     }
+    #a-venator #texto-sobre p {
+        padding: 20px;
+    }
     #as-cervejas article {
         display: block;
         padding: 20px;
