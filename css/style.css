@@ -312,6 +312,9 @@ footer {
         font-size: 1.4rem;
     }
 
+    #contato {
+        background-position: right;
+    }
     #whatsapp {
         flex-direction: column;
     }
