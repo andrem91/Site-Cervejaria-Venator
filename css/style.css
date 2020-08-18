@@ -290,7 +290,6 @@ footer {
         width: 200px;
     }
     #a-venator {
-        background-position: left;
         display: block;
         padding: 20px;
     }
@@ -310,10 +309,6 @@ footer {
     }
     #as-cervejas .text-beer h4 {
         font-size: 1.4rem;
-    }
-
-    #contato {
-        background-position: right;
     }
     #whatsapp {
         flex-direction: column;
