@@ -112,8 +112,6 @@ section {
 }
 
 #a-venator #texto-sobre {
-    /* margin: 20px; */
-    width: 100%;
     font-size: 1.3rem;
     background: rgba(255,255,255,.5);
     padding: 20px;
@@ -288,9 +286,6 @@ footer {
     #a-venator {
         display: block;
         padding: 20px;
-    }
-    #a-venator #texto-sobre {
-        margin: 0;
     }
     #as-cervejas article {
         display: block;
