@@ -111,6 +111,7 @@ section {
 #a-venator #texto-sobre {
     padding: 20px;
     color: white;
+    /* background: black; */
 }
 
 #a-venator #texto-sobre h1 {
@@ -119,14 +120,9 @@ section {
     font-size: 2.8rem;
 }
 
-#a-venator #imagem-sobre {
-    margin: 20px;
-}
-
-#a-venator img {
-    width: 100%;
-    border-radius: 0.4rem;
-    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.4);
+#a-venator #texto-sobre p {
+    background: rgba(0,0,0,0.8);
+    padding: 40px;
 }
 
 /* As Cervejas */
@@ -208,7 +204,7 @@ section {
 /* Contato */
 #contato {
     border-top: 1px solid rgba(153, 145, 145, 0.5);
-    background-image: linear-gradient(rgba(255,255,255,0.2),rgba(000,000,000,1)) ,url(../image/sobre-as-cervejas-cervejaria-venator.jpg);
+    background: black;
     color: white;
     background-size: cover;
     background-position: center;
@@ -223,7 +219,7 @@ section {
 
 #whatsapp p {
     width: 50%;
-    padding: 20px;
+    padding: 40px;
 }
 
 #whatsapp .button {
@@ -318,6 +314,7 @@ footer {
     }
     p {
         text-align: center;
+        font-size: 1rem;
     }
 
 }
